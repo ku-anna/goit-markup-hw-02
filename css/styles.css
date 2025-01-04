@@ -1,10 +1,73 @@
 body {
+    color: #434455;
     font-family: 'Roboto'; 
+    font-weight: 400;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
 }
-ul{
+ul {
     list-style-type: none;
 }
-a .link:hover,
+.link:hover,
 .link:focus{
-    text-decoration-color: #4d5ae5;
+    color: #4d5ae5;
+    font-weight: 400;
+    size: 12px;
+    line-height: 16px;
+    letter-spacing: 4%;
+    text-decoration: underline;
+}
+nav {
+    background-color: #ffffff;
+}
+.solutions {
+    background-color: #2e2f42;
+    width: 140;
+    height: 600;
+}
+h1 {
+    font-weight: bold;
+    size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+}
+button {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #404bbf;
+    text-align: center;
+    border-radius: 4px solid white;
+    font-weight: medium;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+}
+.small-text {
+    font-weight: 400;
+    size: 12px;
+    line-height: 14px;
+    letter-spacing: 4%;
+}
+.team-card {
+    background-color: #f4f4fd;
+}
+h2 {
+    font-weight: bold;
+    size: 36px;
+    letter-spacing: 2%;
+    text-align: center;
+}
+h3{
+    font-weight: medium;
+    size: 20px;
+    letter-spacing: 2%;
+}
+footer{
+    background-color: #2e2f42;
+}
+footer p {
+    color: #f4f4fd;
 }
