@@ -3,7 +3,7 @@ body {
     background-color: #ffffff;
     font-family: "Roboto", sans-serif; 
     font-weight: 400;
-    size: 16px;
+    font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
 }
@@ -24,8 +24,11 @@ address{
     letter-spacing: 0.02em;
     color: #434455;
 }
-address:hover,
-address:focus {
+.address-tag {
+    color: #434455;
+}
+.address:hover,
+.address:focus {
     color: #404bbf;
 }
 span {
@@ -47,12 +50,7 @@ ul {
     text-decoration: underline;
 }
 
-.solutions {
-    background-color: #2e2f42;
-    width: 140;
-    height: 600;
-}
-.header1 {
+.header_solutions {
     font-weight: bold;
     font-size: 56px;
     letter-spacing: 0.02em;
@@ -70,11 +68,22 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
+.button:hover,
+.button:focus {
+    background-color: #404bbf;
+}
 .small-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.team-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+    color: #2e2f42;
 }
 .team-card {
     background-color: #f4f4fd;
@@ -103,7 +112,7 @@ ul {
     text-transform: capitalize;
     color: #2e2f42;
 }
-.portfolio-h3{
+.portfolio_service{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -115,12 +124,12 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    }
+}
 .footer{
     background-color: #2e2f42;
 }
-.footer-link{
-    font-family: "raleway" sans-serif;
+.footer-logo{
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
